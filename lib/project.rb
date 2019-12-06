@@ -9,6 +9,7 @@ class Project
   def add_backer(backer)
   #  investor = Backer.new(self)
     @backers << backer
+    backer.backed_projects << self
   end
 
   def back_project
