@@ -13,7 +13,7 @@ class Backer
 binding.pry
 #  funded = Project.new(self)
     @backed_projects << project
-    #@backed_projects << @name
+    @backers << @name
   end
 
 #    backerName =  project.backers  << self
