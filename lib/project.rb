@@ -7,7 +7,7 @@ class Project
   end
 
 
-  def add_backer
+  def back_project
     @backers << investor
   end
 
