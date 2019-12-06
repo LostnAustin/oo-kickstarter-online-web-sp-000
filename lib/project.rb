@@ -6,6 +6,10 @@ class Project
     @backers = []
   end
 
+  def add_backer(backer)
+    investor = Backer.new(self)
+    @backers << backer
+  end
 
   def back_project
     @backers << investor
